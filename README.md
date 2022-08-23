@@ -14,13 +14,13 @@ which will copy 15 files from all subdirectories in the source path. More option
 ## Exclude
 
 An exclude option is included to remove some folders from being sampled. To use exclude, the user should put ```-e``` or ```--exclude``` for every folder to be excluded. For example, using the sample directory below
-
+```
 >topdir
-  >subdir1
-  >subdir2
-  >subdir3
-  >subdir4
-  
+  -subdir1
+  -subdir2
+  -subdir3
+  -subdir4
+```
 to exclude subdir2 and subdir3, the user would have to add the following options below
 
 ```
